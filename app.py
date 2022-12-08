@@ -10,6 +10,9 @@ def home():
 	return render_template('index.html')
 
 # Start our application
-
-		# port = 1002
+if __name__=="__main__":
+	app.run(
+		debug=True
+	# port = 1002
+	)
 	
